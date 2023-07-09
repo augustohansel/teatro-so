@@ -1,0 +1,103 @@
+
+/*centraliza os textos*/
+.centralizarLetra{
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 200px;
+}
+
+/*div de compra*/
+.minha-div {
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    padding: 80px;
+}
+
+/*estilo dos assentos*/
+.assento {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+/*seleciona a cor da cadeira conforme a disponibilidade*/
+.livre {
+    background-color: #0a800a;
+}
+
+/*seleciona a cor da cadeira conforme a disponibilidade*/
+.ocupado {
+    background-color: #FF0000FF;
+}
+
+/*determina o tamanho do número da cadeira*/
+.numero {
+    font-size: 60px;
+}
+
+/*determina o tamanho da situação da cadeira*/
+.situacao {
+    font-size: 20px;
+}
+
+/*determina o tamanho do titulo*/
+.titulo{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 100px
+}
+
+/*estilo do botão reservar tela de compra*/
+.reservar-button {
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*estilo do botão reservar index*/
+.reservar-button2 {
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*estilo do botão voltar reserva*/
+.cancelar-button {
+    margin-top: 20px;
+    background-color: #e00b19;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
